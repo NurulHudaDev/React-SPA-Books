@@ -1,0 +1,39 @@
+.books{
+   height: 370px;
+   border: 1px solid #95A0A7;
+   border-radius: 8px;
+   position: relative;
+   
+}
+.books img{
+   width:200px;
+   height: 200px;
+   border-radius: 8px;
+   margin: 7px;
+
+}
+.book-info{
+   margin: 0 14px;
+}
+
+.btn-cart{
+   width: 100%;
+   border: none;
+   border-radius: 0px 0px 8px 8px;
+   background-color: #95A0A7;
+   position: absolute;
+   bottom: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.btn-cart-text{
+   margin-right: 5px;
+}
+.btn-cart:hover{
+   background-color: rgb(123, 175, 175);
+}
+
+.b{
+   width: 200px;
+}

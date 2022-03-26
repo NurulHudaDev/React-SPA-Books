@@ -1,0 +1,33 @@
+.books-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.book-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin: 100px 50px;
+}
+
+/* cart container components section  */
+
+.book-container{
+    background-color: rgb(231, 239, 245);
+    padding: 10px;
+}
+.cart-bg{
+    background-color: aqua;
+      position: sticky;
+}
+.remove-btn{
+    background-color: rgb(24, 75, 75);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+    
+
+
