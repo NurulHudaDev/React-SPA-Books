@@ -11,7 +11,15 @@ const Books = () => {
   const handelAddToBookCart = (book) => {
     const newCart = [...carts, book]
    // if(newCart)
+   if(carts.length<4){{
     setCart(newCart);
+   }
+
+   }
+   else{
+     alert("sorry boss")
+   }
+    
   };
   
     useEffect(() => {
